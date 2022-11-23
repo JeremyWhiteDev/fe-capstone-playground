@@ -34,7 +34,7 @@ export const PhotoUpload = () => {
         </button>
       </div>
       {/* Example of how you can display image with URL */}
-      {imageUrl && <img src={imageUrl} />}
+      {imageUrl && <img alt="example" src={imageUrl} />}
     </>
   );
 };
